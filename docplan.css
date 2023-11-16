@@ -1,0 +1,284 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+  font-family: work sans;
+}
+.mynavbar{
+    display: flex;
+    justify-content: space-between;
+}
+.mynavbar li {
+    text-decoration: none;
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    justify-content: space-between;
+    
+}
+.mynavbar ul li{
+  padding: 10px;
+}
+.mynavbar ul li a{
+text-decoration: none;
+}
+.mynavbar #app{
+  color: aqua;  
+}
+#img{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+#person{
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 10px;
+  color: aqua;
+  margin-bottom: 5%;
+  font-weight: 400;font-size: xx-large;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  gap: 20px;
+}
+.parent div{
+  align-items: center;
+  background-color: white;
+}
+.allbody{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 2%;
+}
+.box1{
+  background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 300px;
+  width:250px;
+}
+.box2{
+  background-color: #3d83df;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 300px;
+  width:250px;
+}
+.box3{
+  background-color: #1b2734;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 300px;
+    width:250px;
+}
+.allbody h1{
+  color: white;
+  font-weight: 400;
+  font-size: xx-large;
+  margin-top:4%;
+}
+.allbody p{ 
+  color: white;
+  margin-top: 4%;
+  line-height:-0.5%; 
+}
+.sellect1{
+  border: none;
+    text-decoration: underline;
+    background-color: #00ccb1;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top:18%;
+}
+.sellect2{
+  border: none;
+    text-decoration: underline;
+    background-color: #3d83df;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top:18%;
+}
+.sellect3{
+  border: none;
+    background-color: #00ccb1;
+    background-color: #1b2734;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top:5%;
+}
+  #patparent{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.patp{
+  color: #00ccb1;
+  font-size: xx-large;
+  font-weight: 400;
+  margin-left: 10%;
+}
+#parent img{
+  max-width: 80px;
+  max-height: 80px;
+}
+#parent{
+  display: grid;
+grid-template-columns: 100px 100px 100px;
+gap: 20px;
+margin-right: 20px;
+}
+.all{
+background-color: #d0faf4;
+padding-bottom: 10%;
+display: flex;
+padding: 10px;
+}
+#bx{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 20px;
+  width: 30px;
+  padding: 5%;
+  margin-left: 30%;
+
+}
+#bxall{
+  border-radius: 10px;
+  height: 300px;
+  width: 250px;
+  padding: 2em 2em 0;
+}
+#bxall img{
+  padding-top: 60%
+}
+#bus{
+  background-color: white;
+  padding: 15%;
+}
+#bus p{
+  color: black;
+  font-size: small;
+  padding: 05px;
+}
+
+#bus h1{
+  color: #00ccb1;
+  font-weight: 200;
+}
+#bus img{
+  width: 25px;
+  margin-left: 30px;
+  padding: 3%;
+  margin-top: 60px;
+}
+#bxall h1{
+  color: #00ccb1;
+  font-weight: 200;
+  margin-left: 40%;
+}
+#bxall p{
+  margin-left: 40%;
+  padding: 5px;
+}
+.imp h1{
+  margin-left: 40%;
+  color: #00ccb1;
+  margin-top: 2%;
+}
+.pee p{
+  margin-left: 40%;
+  margin-top: 2%;
+}
+#mexico{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 20px;
+  justify-content: center;
+padding-top: 5%;
+}
+.open{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#pen{
+  display: flex;
+  justify-content: space-between;
+}
+#ben{
+  display: flex;
+  justify-content: space-between;
+}
+#biro{
+  display: flex;
+  justify-content: space-between;
+}
+#cil{
+  display: flex;
+  justify-content: space-around;
+}
+#six{
+  display: flex;
+  justify-content: space-around;
+}
+#seven{
+  display: flex;
+  justify-content: space-around;
+}
+#eight{
+  display: flex;
+  justify-content: space-around;
+}
+#nine{
+  display: flex;
+  justify-content: space-around;
+}
+.butt h1{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 300;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.butt button{
+  margin-left: 40%;
+  border: none;
+  background-color: #3d83df;
+  color: white;
+  padding: 1%;
+}
+#mexico button{
+  background-color: #3d83df;
+  color: white;
+  border: none;
+  width: 40%;
+}
+.last{
+  display: flex;
+  justify-content: center;
+  color: #ababab;
+  font-size: 15px;
+  font-family: roboto;
+  padding-top: 5%;
+}
+#mat{
+  color: #3d83df;
+  display: flex;
+}
+.mee p{
+  justify-content: center;
+}
